@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flicker</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #header {
+        display: flex;
+        justify-content: space-between;
+        border: 5px solid black;
+        text-transform: uppercase;
+        font-size: 50px;
+        align-items: center;
+        color: brown;
+      }
+      #mainsession {
+        background-color: #96069622;
+        height: 100%;
+        width: 100%;
+      }
+      #container {
+        /* width: 50%; */
+        /* width:90%; */
+
+        text-align: center;
+        padding: 20% 0;
+      }
+      #container #btn {
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: orangered;
+        font-size: 20px;
+        border: 5px solid black;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">color Chainger <span id="color">#ffff</span></div>
+    <div id="mainsession">
+      <div id="container">
+        <button id="btn">Chainge color</button>
+      </div>
+    </div>
+    <script>
+      const btn = document.getElementById("btn");
+      const colortext = document.getElementById("color");
+      const mainsession = document.getElementById("mainsession");
+      const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+      btn.addEventListener("click", mycolor);
+      function mycolor() {
+        let hash = "#";
+        for (let i = 1; i <= 6; i++) {
+          hash = hash + random();
+        }
+        mainsession.style.backgroundColor = hash;
+        colortext.innerHTML = hash;
+      }
+      function random() {
+        let ranin = Math.floor(Math.random() * 6);
+        return hex[ranin];
+      }
+    </script>
+  </body>
+</html>
+
+<!-- function random() {
+    let ranin = Math.floor(Math.random() * 16);
+    return hex[ranin];
+  } -->

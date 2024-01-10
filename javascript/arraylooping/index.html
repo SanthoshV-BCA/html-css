@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Looping arrat</title>
+  </head>
+  <body>
+    <h1 id="array"></h1>
+    <script>
+      let a = ["car", "bike", "cycle"];
+      let b = a.length;
+      //   console.log(b);
+      let c;
+      for (let i = 1; i < b; i++) {
+        c = a[i];
+      }
+      document.getElementById("array").innerHTML = c;
+    </script>
+  </body>
+</html>

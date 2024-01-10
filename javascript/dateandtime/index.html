@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATE AND TIME</title>
+  </head>
+  <body>
+    <h2>date and time</h2>
+    <h1 id="date"></h1>
+    <button onclick="myfun()">Show date</button>
+    <h1 id="date1"></h1>
+    <button onclick="myfun1()">Show bday/button>
+    <script>
+      function myfun() {
+        const d = new Date();
+        document.getElementById("date").innerHTML = d;
+      }
+      function myfun1() {
+        const e = new Date("October 7, 2002 11:13:00");
+        document.getElementById("date1").innerHTML = e;
+      }
+    </script>
+  </body>
+</html>

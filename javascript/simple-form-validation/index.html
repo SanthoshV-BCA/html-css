@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <h1 id="title">sathosh</h1>
+    <button id="btn" onclick="my()">click</button>
+
+    <button id="btn1">click me</button>
+    <p id="text"></p>
+    <script>
+      function my() {
+        let a = document.getElementById("title");
+        a.style.border = "2px solid red";
+        a.style.color = "blue";
+      }
+      let x = document.getElementById("btn1");
+      x.addEventListener("mouseover", myfunction);
+      x.addEventListener("click", myfunction2);
+      x.addEventListener("mouseout", myfunction3);
+      function myfunction() {
+        document.getElementById("text").innerHTML += "mouseover<br>";
+      }
+      function myfunction2() {
+        document.getElementById("text").innerHTML += "clicked<br>";
+      }
+      function myfunction3() {
+        document.getElementById("text").innerHTML += "mouseout<br>";
+      }
+    </script>
+  </body>
+</html>

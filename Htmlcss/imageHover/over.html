@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <style>
+      .image {
+        position: relative;
+        width: 400px;
+      }
+
+      .image__img {
+        display: block;
+        width: 100%;
+      }
+
+      .image__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-family: "Quicksand", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.25s;
+      }
+
+      .image__overlay--blur {
+        backdrop-filter: blur(5px);
+      }
+      /* .overlay:hover > * {
+        transform: translateY(0);
+      } */
+      /* .overlay > * {
+        transform: translateY(20px);
+        transition: transform 0.25s;
+      } */
+      /* .overlay--blur {
+        backdrop-filter: blur(5px);
+      } */
+
+      /* .overlay--primary {
+        background: #009578;
+      } */
+
+      .image__overlay--primary {
+        background: #009578;
+      }
+
+      .image__overlay > * {
+        transform: translateY(30px);
+        transition: transform 0.25s;
+      }
+
+      .image__overlay:hover {
+        opacity: 1;
+      }
+
+      .image__overlay:hover > * {
+        transform: translateY(0);
+      }
+
+      .image_title {
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .image__description {
+        font-size: 1.25em;
+        margin-top: 0.25em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-md-4 align-self-start p-2">
+          <div class="image">
+            <img
+              class="image__img"
+              src="static/images/IMG_20171208_075457.jpg"
+              alt="Aaron"
+            />
+            <div class="image__overlay">
+              <div class="image__title">Aaron</div>
+              <p class="image__description">Here We Have An Architect</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 align-self-center p-2">
+          <div class="image">
+            <img
+              class="image__img"
+              src="static/images/263783863517_status_f0d8db012707485ba9a90923dcd48818.jpg"
+              alt="Tinotenda & Chipo"
+            />
+            <div class="image__overlay image__overlay--blur">
+              <div class="image__title">Tinotenda & Chipo</div>
+              <p class="image__description">Here We Have Lawyers</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 align-self-end p-2">
+          <div class="image">
+            <img
+              class="image__img"
+              src="static/images/IMG_20211028_125408.jpg"
+              alt="Ashleigh"
+            />
+            <div class="image__overlay image__overlay--primary">
+              <div class="image__title">Ashleigh</div>
+              <p class="image__description">Here We Have A Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

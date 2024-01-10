@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let Array = [200, 100, 100, 50, 50, 1000, 2000, 30];
+      function remove(Array) {
+        let final = [];
+        // const uniqueArray = [];
+
+        for (let i = 0; i < Array.length; i++) {
+          if (final.indexOf(Array[i]) === -1) {
+            let add = Array[i] * 2;
+            final.push(Array[i]);
+            // console.log(add);
+            document.write(add + "<br>");
+          }
+        }
+      }
+      remove(Array);
+    </script>
+  </body>
+</html>

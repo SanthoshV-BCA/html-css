@@ -1,0 +1,17 @@
+body {
+    background-color: aliceblue;
+  }
+
+  img {
+    width: 400px;
+    height: 200px;
+    transition: 0.5s all;
+  }
+
+  img:hover {
+    height: 250px;
+    width: 500px;
+  }
+  .imag > img {
+    margin: 10px;
+  }

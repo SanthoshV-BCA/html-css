@@ -1,0 +1,1197 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&family=Roboto:ital,wght@0,700;1,500&display=swap");
+/* font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.collapsible p {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+i {
+  padding: 10px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.container-banner {
+  width: 90%;
+
+  margin: 0 auto;
+}
+.contact1 {
+  padding: 0%;
+}
+#header {
+  background-color: white;
+  padding: 5px 0;
+  height: auto;
+}
+.logo {
+  width: 70%;
+  height: 80%;
+}
+
+.btncontact {
+  /* color: #5e5e5e;
+   */
+  background-color: #09819e;
+  color: white;
+
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  border: 1px solid #9b9a9a;
+  border-radius: 7px;
+  padding: 10px;
+}
+.container1 {
+  /* background-color: red; */
+  width: 90%;
+  margin: 0 auto;
+  /* height: 100%; */
+  /* background-image: url(../img/background/hfhtcj.png);
+  height: 100%; */
+}
+.banner-main {
+  width: 100%;
+  background-image: url(../img/background/hfhtcj.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center top; */
+  background-size: cover;
+  /* height: 100%; */
+}
+.bannercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  margin: 6% 1%;
+  width: 27%;
+  border: 1px solid #dadadd;
+  border-radius: 5px;
+  background-color: #ffff;
+  height: auto;
+}
+
+.formflex {
+  padding: 5%;
+}
+.formtitle {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #0d83a1;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+form {
+  text-align: center;
+}
+.form-group .firstname {
+  width: 49%;
+  padding: 6px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  border-radius: 2px;
+  font-family: "Nunito", sans-serif;
+
+  color: #838383;
+}
+.form-group .lastname {
+  width: 49%;
+  padding: 6px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  font-family: "Nunito", sans-serif;
+  color: #838383;
+  border-radius: 2px;
+}
+.form-group {
+  margin: 4%;
+}
+.form-group .india {
+  width: 49%;
+  padding: 6px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  font-family: "Nunito", sans-serif;
+  color: #838383;
+  border-radius: 2px;
+}
+.form-group .state {
+  width: 49%;
+  padding: 6px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  font-family: "Nunito", sans-serif;
+  color: #838383;
+  border-radius: 2px;
+}
+.form-group input {
+  width: 100%;
+  padding: 6px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  font-family: "Nunito", sans-serif;
+  color: #838383;
+  border-radius: 2px;
+}
+.formcheck {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.h4 {
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.formtxt {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  color: #232323;
+  font-size: 10px;
+}
+.formtxt .formred {
+  color: #c52f2f;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+.button .submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #0d83a1;
+  border: #09819e;
+  border: 2px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+}
+.textleft {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.text1 {
+  font-size: 37px;
+}
+.text2 {
+  font-size: 60px;
+}
+.hashtag {
+  border: 2px solid #f1f1f1;
+  width: 60%;
+  margin: 15% 0;
+  text-align: center;
+  padding: 2%;
+  color: #f1f1f1;
+  /* width: auto; */
+}
+.win {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  color: #f1f1f1;
+  padding: 5px;
+}
+
+.session2-container {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color:  */
+}
+.session2-main {
+  background-color: #f5f5f5;
+  padding: 4% 0;
+}
+.session2-title {
+  text-align: justify;
+}
+.session2-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+.session2-title p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 10px auto;
+  width: 69%;
+  font-size: 15px;
+  line-height: 150%;
+}
+.session2-logo {
+  width: 100%;
+  height: auto;
+}
+.session3-flex {
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+.rightimg {
+  width: 100%;
+  height: auto;
+}
+.container-left {
+  width: 50%;
+  margin: 0 auto;
+}
+.left-title {
+  text-align: center;
+  margin: 20px 0px;
+}
+.left-title h1 {
+  font-family: "Roboto", sans-serif;
+  color: #0d83a1;
+  font-size: 31px;
+}
+.left-logo1 {
+  text-align: center;
+  margin: 30% 0;
+}
+.leftlogo {
+  width: 25%;
+  height: auto;
+}
+.left-logo1 h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+}
+span {
+  color: #0d83a1;
+  font-size: 36px;
+  font-weight: 800;
+}
+.left-logo2 h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+}
+.left-logo2 {
+  text-align: center;
+  margin: 30% 0;
+}
+.session4-back {
+  background-color: #e6e4e5;
+  padding-bottom: 1%;
+}
+.session4-container {
+  width: 75%;
+  margin: 1% auto;
+}
+.session4-title {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3%;
+}
+.session4-title h1 {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 1%;
+  /* padding: 4%; */
+  font-size: 33px;
+}
+.session4-title p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  width: 69%;
+  margin: 0 auto;
+  font-weight: 200;
+  line-height: 2;
+  /* padding-bottom: 1%; */
+  /* padding: 2%; */
+}
+.bigimg img {
+  width: 100%;
+  border: 5px solid white;
+  border-radius: 3px;
+}
+.smallimg img {
+  width: 14%;
+  margin: 0 2%;
+  /* width: 100%; */
+}
+.smallimg {
+  align-items: center;
+  margin: 1%;
+}
+.session5-contaier {
+  width: 80%;
+  /* background-color: red; */
+  margin: 0 auto;
+  padding: 2% 0;
+}
+.session5title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  padding: 1%;
+}
+.session5title {
+  text-align: center;
+}
+
+.collapsible {
+  width: 100%;
+  text-align: left;
+  padding: 1%;
+  border: 0;
+  background-color: white;
+  color: #0d83a1;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.collapse {
+  border: 1px solid #0d83a1;
+  margin: 2% 0;
+}
+/* .cloo-flex {
+} */
+#plus {
+  font-size: 20px;
+  margin-right: 2%;
+  font-weight: 900;
+  color: #0d83a1;
+}
+.content {
+  width: 100%;
+  text-align: left;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  border: 0;
+  background-color: white;
+  color: black;
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.session6-back {
+  background-color: #f9f9f9;
+}
+.session6-container {
+  width: 95%;
+  margin: 0 auto;
+}
+.procedure-div,
+.procedure-div2,
+.procedure-div3,
+.procedure-div4 {
+  margin: 20px;
+  /* background-color: white; */
+  width: 20%;
+  /* min-height: 50%; */
+  /* margin:1% */
+}
+
+.advanceprocedure {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proimg img {
+  width: 100%;
+  height: auto;
+}
+.ullist {
+  text-align: left;
+}
+.proimg {
+  width: 100%;
+  background-color: white;
+}
+
+.btn {
+  text-align: center;
+
+  /* margin: 50%; */
+}
+.readmore {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 50%;
+  padding: 6px;
+  text-transform: uppercase;
+  background-color: #0d83a1;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+}
+ul li {
+  border-bottom: 1px solid #9b9898;
+  padding: 5%;
+  list-style-type: none;
+}
+.ullist h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  border-bottom: 1px solid #9b9898;
+  padding: 2%;
+}
+.ullist ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.session7-container {
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+.session7-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lefttitle {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10%;
+  font-size: 17px;
+}
+.smalltitle {
+  margin-top: 5%;
+}
+.smalltitle h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+.smalltitle p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 1%;
+  font-size: 15px;
+}
+.para {
+  margin-top: 5%;
+  width: 70%;
+}
+.para p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.simg {
+  width: 20%;
+  border-radius: 3px;
+}
+.sessionsmallimg {
+  text-align: right;
+  margin: 2%;
+}
+.bimg {
+  width: 100%;
+  border-radius: 3px;
+}
+.flex-left {
+  width: 50%;
+}
+.flex-right {
+  width: 50%;
+}
+.sessionbigimg {
+  margin: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sesion8-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.session8-back {
+  background-color: #f7fafb;
+}
+.session8-title h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 4%;
+  font-size: 32px;
+}
+.session8-title p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+}
+.session8-flex {
+  display: flex;
+}
+.inter {
+  width: 100%;
+}
+.imggg {
+  margin: 1%;
+}
+.textss h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 1%;
+}
+.textss p {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  padding: 1%;
+}
+.textss button {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white;
+  border: 0;
+  background-color: #09819e;
+  /* text-align: center; */
+  padding: 3%;
+  margin: 5%;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+.textss {
+  text-align: center;
+}
+.session9back {
+  background-color: #f7fafb;
+}
+.session9-container {
+  width: 85%;
+  margin: 0 auto;
+}
+.session9-title {
+  padding: 2%;
+  /* width: 100%; */
+}
+.widthimg {
+  width: 100%;
+}
+.session9-title h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  padding: 1%;
+}
+.session9-title p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+.session9-btn {
+  text-align: center;
+}
+.btn9 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  border: 0;
+  background-color: #09819e;
+  margin: 5%;
+  padding: 1%;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+.session-11-back {
+  background-color: #f7fafb;
+}
+.session-11-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.session11-warp {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 33%;
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+}
+.session11-title {
+  text-align: center;
+  padding: 1%;
+}
+.session11-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.icon-title h3 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 3% 0;
+}
+.icon-title p {
+  width: 90%;
+
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 3% 0;
+}
+.session12-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.session12-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+.warp-item {
+  width: 25%;
+  text-align: center;
+  padding: 2%;
+  /* display: block; */
+}
+.session12-title {
+  text-align: center;
+  padding: 2%;
+}
+.session12-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 2%;
+}
+.session12-title p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1%;
+}
+.warp-item p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.orange {
+  color: #fdb813;
+  font-weight: bold;
+}
+.blue {
+  font-weight: bold;
+}
+#footer {
+  background-color: #fdb813;
+}
+.footertitle {
+  text-align: center;
+  padding: 1%;
+}
+.footertitle p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.final {
+  width: 25%;
+}
+
+.arow {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+/* end */
+
+@media screen and (max-width: 1027px) {
+  .form-group .firstname {
+    width: 100%;
+    margin: 1%;
+  }
+  .form-group .lastname {
+    width: 100%;
+    margin: 1%;
+  }
+  .form-group .india {
+    width: 100%;
+    margin: 1%;
+  }
+  .form-group .state {
+    width: 100%;
+    margin: 1%;
+  }
+  .icon-title h3 {
+    width: 100%;
+
+    font-size: 17px;
+  }
+  .icon-title h3 {
+    font-size: 13px;
+  }
+  .orange {
+    font-size: 28px;
+  }
+  .blue {
+    font-weight: bold;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text1 {
+    font-size: 23px;
+  }
+  .text2 {
+    font-size: 33px;
+  }
+  .form {
+    width: 45%;
+  }
+  .left-logo1 h2 {
+    font-size: 18px;
+    margin: 0% 0;
+  }
+  .left-logo2 h2 {
+    font-size: 18px;
+    margin: 0% 0;
+  }
+  .left-logo1 {
+    margin: 4% 0;
+  }
+  .left-logo2 {
+    margin: 4% 0;
+  }
+  span {
+    font-size: 25px;
+  }
+  .session4-title h1 {
+    font-size: 25px;
+  }
+  .session4-title p {
+    font-size: 11px;
+  }
+  .session2-title {
+    width: 100%;
+  }
+  .session5title h1 {
+    font-size: 28px;
+  }
+  .collapsible {
+    font-size: 15px;
+  }
+  .ullist ul li {
+    font-size: 11px;
+  }
+  .ullist h3 {
+    font-size: 15px;
+  }
+  .readmore {
+    font-size: 14px;
+  }
+  .lefttitle {
+    font-size: 15px;
+  }
+
+  .smalltitle h2 {
+    font-size: 15px;
+  }
+  .smalltitle p {
+    font-size: 12px;
+  }
+
+  .para p {
+    font-size: 12px;
+  }
+  .textss h3 {
+    font-size: 12px;
+  }
+  .textss p {
+    font-size: 10px;
+  }
+  .textss button {
+    font-size: 12px;
+  }
+  .session9-title h1 {
+    font-size: 28px;
+  }
+  .session9-title p {
+    font-size: 14px;
+  }
+  .warp-item {
+    width: 30%;
+  }
+  .orange {
+    font-size: 24px;
+  }
+  .blue {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .session3-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .left-logo1 {
+    margin: 10% 0;
+  }
+  .left-logo2 {
+    margin: 10% 0;
+  }
+  .advanceprocedure {
+    flex-direction: column;
+  }
+  .procedure-div,
+  .procedure-div2,
+  .procedure-div3,
+  .procedure-div4 {
+    width: 100%;
+  }
+  .ullist ul li {
+    font-size: 15px;
+  }
+  .ullist h3 {
+    font-size: 15px;
+  }
+  .session7-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-left {
+    width: 100%;
+  }
+  .flex-right {
+    width: 100%;
+  }
+  .sessionsmallimg {
+    text-align: center;
+    /* margin: 2%; */
+  }
+}
+@media screen and (max-width: 500px) {
+  .text1 {
+    font-size: 17px;
+  }
+  .text2 {
+    font-size: 25px;
+  }
+  .hashtag {
+    width: 85%;
+    padding: 0px;
+  }
+  .warp-item {
+    width: 40%;
+  }
+  .footertitle p {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 10px;
+  }
+  .left-title h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .lefttitle h1 {
+    text-align: center;
+  }
+  .smalltitle {
+    margin: 5% auto;
+    width: 81%;
+  }
+  .para {
+    margin: 5% auto;
+    width: 81%;
+  }
+  .para p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  ul li {
+    border-bottom: 1px solid #9b9898;
+    padding: 3%;
+    list-style-type: none;
+  }
+
+  .collapse {
+    margin: 4% 0;
+  }
+
+  .bannercontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
+  }
+  .textleft {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .hashtag {
+    width: 100%;
+    margin: 5% 0;
+  }
+  .text1 {
+    font-size: 29px;
+  }
+  .text2 {
+    font-size: 40px;
+  }
+  .form-group .firstname {
+    width: 49%;
+    margin: 0%;
+  }
+  .form-group .lastname {
+    width: 49%;
+    margin: 0;
+  }
+  .form-group .india {
+    width: 49%;
+    margin: 0%;
+  }
+  .form-group .state {
+    width: 49%;
+    margin: 0%;
+  }
+  .logo {
+    width: 60%;
+    height: auto;
+  }
+
+  .btncontact {
+    padding: 4px;
+    font-size: 15px;
+  }
+  .session2-title h1 {
+    font-size: 22px;
+  }
+  .container-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* ================================= */
+  .session4-container {
+    width: 90%;
+  }
+  /* ========================= */
+  .session2-title p {
+    font-size: 15px;
+    width: 100%;
+    line-height: 130%;
+  }
+  .session4-title h1 {
+    font-size: 25px;
+  }
+  .session4-title p {
+    font-size: 13px;
+    width: 100%;
+    line-height: 150%;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .session5title h1 {
+    font-size: 20px;
+  }
+  .collapsible {
+    font-size: 15px;
+  }
+
+  .lefttitle {
+    font-size: 13px;
+  }
+
+  .smalltitle h2 {
+    font-size: 15px;
+  }
+  .smalltitle p {
+    font-size: 12px;
+  }
+
+  .para p {
+    font-size: 12px;
+  }
+  .session8-flex {
+    flex-direction: column;
+  }
+  .session8-title h1 {
+    font-size: 22px;
+  }
+  .session8-title p {
+    font-size: 12px;
+    width: 90%;
+    line-height: 150%;
+  }
+  .textss h3 {
+    font-size: 18px;
+  }
+  .textss p {
+    font-size: 13;
+  }
+  .session9-title h1 {
+    font-size: 22px;
+  }
+  .session9-title p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  .item {
+    width: 100%;
+  }
+  .icon-title h3 {
+    font-size: 19px;
+  }
+  .icon-title p {
+    font-size: 16px;
+  }
+  .session11-title h1 {
+    font-size: 22px;
+  }
+  .session12-title p {
+    width: 100%;
+  }
+  .warp-item p {
+    font-size: 13px;
+  }
+  .orange {
+    font-size: 18px;
+  }
+  .blue {
+    font-size: 18px;
+  }
+  .session2-container {
+    width: 90%;
+  }
+  .form-group {
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 398px) {
+  .contact1 {
+    padding: 0%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .logo-new {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text2 {
+    font-size: 30px;
+  }
+  .btncontact {
+    padding: 5px;
+    font-size: 9px;
+  }
+  .logo {
+    width: 42%;
+  }
+
+  .left-title h1 {
+    font-size: 20px;
+  }
+  .left-logo1 h2 {
+    font-size: 15px;
+  }
+  .left-logo2 h2 {
+    font-size: 15px;
+  }
+  span {
+    font-size: 20px;
+  }
+  .warp-item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 342px) {
+  .container {
+    width: 99%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 245px) {
+  .text2 {
+    font-size: 21px;
+  }
+  .text1 {
+    font-size: 15px;
+  }
+  .session5title h1 {
+    font-size: 15px;
+  }
+  .collapsible {
+    font-size: 10px;
+  }
+  .form-group .firstname {
+    width: 100%;
+    margin: 1%;
+  }
+  .form-group .lastname {
+    width: 100%;
+    margin: 1%;
+  }
+  .form-group .india {
+    width: 100%;
+    margin: 1%;
+  }
+  .form-group .state {
+    width: 100%;
+    margin: 1%;
+  }
+  .session8-title h1 {
+    font-size: 16px;
+  }
+  .session8-title p {
+    font-size: 10px;
+  }
+  .warp-item p {
+    font-size: 12px;
+  }
+  .logo-new {
+    width: 56%;
+  }
+}

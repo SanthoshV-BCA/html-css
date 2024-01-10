@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <style>
+      .div {
+        width: 50%;
+        margin: 10% auto;
+        background-color: black;
+        text-align: center;
+        padding: 10%;
+        border-radius: 20px;
+      }
+      #username {
+        width: 30%;
+        padding: 1%;
+        margin: 5px;
+      }
+      #password {
+        width: 30%;
+        padding: 1%;
+        margin: 5px;
+      }
+      #submit {
+        width: 10%;
+        padding: 1%;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div">
+        <input type="text" id="username" placeholder="username" /><br />
+        <input type="password" id="password" placeholder="password" /><br />
+        <input
+          type="button"
+          name="button"
+          id="submit"
+          value="submit "
+          onclick="sample()"
+        />
+      </div>
+    </div>
+    <script>
+      function sample() {
+        let a = document.getElementById("username").value;
+        let b = document.getElementById("password").value;
+        if (a == "santhosh" && b == "santhosh123") {
+          alert("Login successful");
+        } else if (a != "santhosh") {
+          alert("usrname is incorrect");
+        } else if (b != "santhosh123") {
+          alert("password is incorrect");
+        } else {
+          alert("usrname and password is incorrect");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    /* grid-template-rows: 2fr 1fr 1fr; */
+    background-color: blueviolet;
+    gap: 10px;
+    margin: 20px;
+  }
+  .para {
+    padding: 5px;
+    background-color: aquamarine;
+  }
+  @media screen and (max-width: 700px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }

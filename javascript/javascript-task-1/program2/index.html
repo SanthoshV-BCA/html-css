@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>See Console</h1>
+    <h2 id="answer"></h2>
+    <script>
+      let Array = [200, 100, 100, 50, 50, 1000, 2000, 30];
+      fun = (Array) => {
+        let square;
+        let sum;
+        document.writeln("<h1>Square</h1><br>");
+        for (let x of Array) {
+          square = Math.sqrt(x);
+          // console.log(square);
+          document.writeln(square + "<br>");
+        }
+        document.writeln("<h1>SUM</h1><br>");
+        for (let y of Array) {
+          sum = y + y;
+          document.writeln(sum + "<br>");
+        }
+      };
+      fun(Array);
+    </script>
+  </body>
+</html>

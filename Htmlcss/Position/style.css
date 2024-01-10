@@ -1,0 +1,35 @@
+.parent {
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    margin-left: 500px;
+  }
+  .box1 {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 500px;
+    top: 0;
+    bottom: 500px;
+  }
+  .box2 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+  }
+  .box3 {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 100px;
+  }
+  .box4 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+  }
